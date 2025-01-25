@@ -5,6 +5,11 @@ CI/CD Pipeline for Java Applications
 
 This guide outlines the implementation of a CI/CD pipeline for deploying a Java application using Jenkins, Maven, SonarQube, Helm, and Kubernetes, with Argo CD for production promotion.
 
+Architecture of complete CI/CD process:
+
+![CICDpipeline](https://github.com/user-attachments/assets/0424bd1e-a271-4494-9fb5-2afbd0cec38c)
+
+
 
 ---
 
