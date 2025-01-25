@@ -10,7 +10,7 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/java_maven_sonarqube_argocd_helm_k8s/sprint-boot-app
+git clone https://github.com/SathwikaKarre/CI-CD-Pipeline-Automation/java_maven_sonarqube_argocd_helm_k8s/sprint-boot-app
 cd java-maven-sonar-argocd-helm-k8s/sprint-boot-app
 ```
 
