@@ -48,32 +48,29 @@ cd CI-CD-Pipeline-Automation
 
 2. Install the following plugins:
 
-Docker
+    Docker
+    
+    Kubernetes
+    
+    GitHub Integration
+    
+    Prometheus
+    
+    Argo CD
 
-Kubernetes
+    Set up Jenkins with the necessary configurations:
+    
+    Link Jenkins to your GitHub repository.
+    
+    Configure webhooks in GitHub to trigger Jenkins builds on commits.
+    
+    Create Jenkins jobs for:
 
-GitHub Integration
-
-Prometheus
-
-Argo CD
-
-Set up Jenkins with the necessary configurations:
-
-Link Jenkins to your GitHub repository.
-
-Configure webhooks in GitHub to trigger Jenkins builds on commits.
-
-Create Jenkins jobs for:
-
-Build: To build Docker images.
-
-Test: To run unit tests.
-
-Deploy: To deploy the application to the Kubernetes cluster.
-
-
-
+        Build: To build Docker images.
+        
+        Test: To run unit tests.
+        
+        Deploy: To deploy the application to the Kubernetes cluster.
 
 
 ## 3. Docker Setup
@@ -116,11 +113,11 @@ Deploy: To deploy the application to the Kubernetes cluster.
 
 2. The changes will trigger the Jenkins pipeline, which will:
 
-Build the Docker image.
-
-Run the tests.
-
-Deploy the application to Kubernetes.
+    Build the Docker image.
+    
+    Run the tests.
+    
+    Deploy the application to Kubernetes.
 
 
 3. Check Prometheus for metrics and Grafana for dashboards showing your application's health.
