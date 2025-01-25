@@ -41,7 +41,7 @@ Clone this repository to your local system or a cloud environment.
 git clone https://github.com/<your-username>/CI-CD-Pipeline-Automation.git
 cd CI-CD-Pipeline-Automation
 
-2. Set up Jenkins
+## 2. Set up Jenkins
 
 1. Install Jenkins (Jenkins 2.x recommended).
 
@@ -58,9 +58,7 @@ Prometheus
 
 Argo CD
 
-
-
-3. Set up Jenkins with the necessary configurations:
+Set up Jenkins with the necessary configurations:
 
 Link Jenkins to your GitHub repository.
 
@@ -78,7 +76,7 @@ Deploy: To deploy the application to the Kubernetes cluster.
 
 
 
-3. Docker Setup
+## 3. Docker Setup
 
 1. Ensure you have Docker installed on the system where Jenkins will build the Docker image.
 
@@ -90,7 +88,7 @@ Deploy: To deploy the application to the Kubernetes cluster.
 
 
 
-4. Kubernetes Setup
+## 4. Kubernetes Setup
 
 1. Set up a Kubernetes cluster (local, cloud-based, or managed like Google Kubernetes Engine or Amazon EKS).
 
@@ -99,7 +97,7 @@ Deploy: To deploy the application to the Kubernetes cluster.
 3. Set up Kubernetes deployment manifests and deploy your application using Argo CD for continuous delivery.
 
 
-5. Monitoring Setup (Prometheus & Grafana)
+## 5. Monitoring Setup (Prometheus & Grafana)
 
 1. Install Prometheus to monitor the Kubernetes cluster.
 
@@ -111,7 +109,7 @@ Deploy: To deploy the application to the Kubernetes cluster.
 
 
 
-How to Use
+## How to Use
 
 1. Once Jenkins, Docker, Kubernetes, and Prometheus are set up, push changes to the GitHub repository.
 
@@ -129,7 +127,7 @@ Deploy the application to Kubernetes.
 
 
 
-Contributing
+## Contributing
 
 If you’d like to contribute to this project, follow these steps:
 
@@ -143,7 +141,7 @@ If you’d like to contribute to this project, follow these steps:
 
 
 
-License
+## License
 
 MIT License - See LICENSE for more information.
 
