@@ -5,7 +5,7 @@ This repository contains a Spring Boot-based Java web application built using Ma
 1. Clone the Repository
 Download the source code and navigate to the project directory:
 
-      git clone https://github.com/SathwikaKarre/CI-CD-Pipeline-Automation/Java_maven_sonarqube_argocd_helm_k8s/spring-boot-app
+      git clone https://github.com/SathwikaKarre/CI-CD-Pipeline-Automation/Java_Maven_SonarQube_ArgoCD_Helm_K8S/spring-boot-app
    
       cd java-maven-sonar-argocd-helm-k8s/sprint-boot-app
    
@@ -45,7 +45,7 @@ The application can now be accessed at:
 Setting Up SonarQube Locally
     To analyze the code quality, SonarQube can be set up on your system. Follow these steps:
     
-        apt install unzip
+      apt install unzip
         
       adduser sonaruser
       wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
