@@ -21,18 +21,25 @@ After a successful build, the generated artifact can be found in the target/ dir
 Option 1: Run Locally (Requires Java 11)
 
 Execute the JAR file to start the application:
+
     java -jar target/spring-boot-web.jar
+    
 The application will be accessible at:
+
     http://localhost:8080
 
 Option 2: Run as a Docker Container
 
 1. Build the Docker Image
+   
     docker build -t my-spring-boot-app:v1 .
    
 2. Run the Container
+   
     docker run -d -p 8010:8080 my-spring-boot-app:v1
+   
 The application can now be accessed at:
+
     http://<your-ip>:8010
 
 Setting Up SonarQube Locally
