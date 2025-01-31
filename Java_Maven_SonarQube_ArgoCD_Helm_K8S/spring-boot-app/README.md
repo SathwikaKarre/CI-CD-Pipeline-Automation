@@ -47,7 +47,7 @@ Setting Up SonarQube Locally
     
         apt install unzip
         
-adduser sonaruser
+      adduser sonaruser
       wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
       
       unzip sonarqube-9.4.0.54424.zip
