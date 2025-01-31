@@ -37,9 +37,10 @@ Source Code -> GitHub -> Jenkins -> Docker -> Kubernetes Cluster -> Argo CD -> P
 
 ### 1. Clone the repository
 Clone this repository to your local system or a cloud environment.
-`bash
-git clone https://github.com/<your-username>/CI-CD-Pipeline-Automation.git
-cd CI-CD-Pipeline-Automation
+
+      git clone https://github.com/SathwikaKarre/CI-CD-Pipeline-Automation.git
+      
+      cd CI-CD-Pipeline-Automation
 
 ## 2. Set up Jenkins
 
