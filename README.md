@@ -33,6 +33,12 @@ This project demonstrates a complete end-to-end CI/CD pipeline that automates th
 
 Source Code -> GitHub -> Jenkins -> Docker -> Kubernetes Cluster -> Argo CD -> Prometheus -> Grafana (Monitoring)
 
+
+![image](https://github.com/user-attachments/assets/017ff328-f590-4e89-a5e7-b633f3990fd9)
+
+
+
+
 ## Setup Instructions
 
 ### 1. Clone the repository
